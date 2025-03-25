@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Reload",
+  "version": "1.0",
+  "description": "Adds a context menu item to auto-reload the page every minute.",
+  "permissions": ["contextMenus", "tabs", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
